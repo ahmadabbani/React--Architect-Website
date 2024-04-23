@@ -56,7 +56,7 @@ const Header = () => {
                 className={`nav-link ${
                   activeLink === "home" ? "active-link" : ""
                 }`}
-                to="/"
+                to="/React--Architect-Website/"
                 onClick={() => {
                   handleToggle();
                   handleClick("home");
