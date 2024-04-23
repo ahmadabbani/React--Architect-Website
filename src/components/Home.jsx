@@ -41,7 +41,12 @@ const Home = () => {
           >
             <SwiperSlide>
               <div className="hero-slide">
-                <img src="/images/home/img-hero-modern2.jpg" alt="Hero Image" />
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/images/home/img-hero-modern2.jpg"
+                  }
+                  alt="Hero Image"
+                />
                 <div className="hero-text">
                   <h1>
                     Explore <span id="span1">Simplicity</span>
