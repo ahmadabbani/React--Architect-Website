@@ -1,4 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import { Link } from "react-router-dom";
 import { DataContext } from "./DataProvider";
 import { useParams } from "react-router-dom";
@@ -96,10 +98,11 @@ const Portfolio = () => {
                 index >= 9 && !showAllProjects ? "hidden" : ""
               }`}
             >
-              <img
+              <LazyLoadImage
                 src={project.image}
                 className="project-img"
                 alt={project.name}
+                effect="blur"
               />
               <div className="project-body">
                 <div className="p-name">
