@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/"
+            path="/React--Architect-Website/"
             element={
               <>
                 <Home />
@@ -30,7 +30,10 @@ function App() {
               </>
             }
           />
-          <Route path="aboutUs" element={<AboutUs />} />
+          <Route
+            path="/React--Architect-Website/aboutUs"
+            element={<AboutUs />}
+          />
           <Route
             path="/portfolio/:category"
             element={

@@ -56,7 +56,7 @@ const Header = () => {
                 className={`nav-link ${
                   activeLink === "home" ? "active-link" : ""
                 }`}
-                to="/"
+                to="/React--Architect-Website/"
                 onClick={() => {
                   handleToggle();
                   handleClick("home");
@@ -71,7 +71,7 @@ const Header = () => {
                 className={`nav-link ${
                   activeLink === "aboutUs" ? "active-link" : ""
                 }`}
-                to="/aboutUs"
+                to="/React--Architect-Website/aboutUs"
                 onClick={() => {
                   handleToggle();
                   handleClick("aboutUs");
