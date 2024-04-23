@@ -104,7 +104,7 @@ const Portfolio = () => {
                 alt={project.name}
                 effect="blur"
                 wrapperProps={{
-                  style: { transitionDelay: "1s" },
+                  style: { transitionDelay: "0.5s" },
                 }}
               />
               <div className="project-body">

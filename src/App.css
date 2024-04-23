@@ -265,6 +265,10 @@ color:hsla(217, 19%, 20%);
   width: 100% !important;
   height: 100% !important;
 }
+.lazy-load-image-background {
+  background-color: #ddd;
+}
+
 .project .project-img{
   object-fit: cover !important;
   max-width: 100% !important;
