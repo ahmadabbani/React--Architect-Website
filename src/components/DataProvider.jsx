@@ -6,7 +6,7 @@ const DataProvider = ({ children }) => {
     {
       id: 1,
       name: "The Glass Oasis",
-      image: "/images/modern&luxury/modern-img4.jpg",
+      image: `${process.env.PUBLIC_URL}/images/modern&luxury/modern-img4.jpg`,
       gallery: [
         "/images/gallery-modern&lux/gallery14.jpg",
         "/images/gallery-modern&lux/gallery20.jpg",
