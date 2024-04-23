@@ -16,13 +16,13 @@ const Home = () => {
   const navigate = useNavigate();
   const handleClick = (projectType) => {
     if (projectType === "Modern") {
-      navigate("/portfolio/Modern");
+      navigate("/React--Architect-Website/portfolio/Modern");
     } else if (projectType === "Cottage") {
-      navigate("/portfolio/Cottage");
+      navigate("/React--Architect-Website/portfolio/Cottage");
     } else if (projectType === "Mediterranean") {
-      navigate("/portfolio/Mediterranean");
+      navigate("/React--Architect-Website/portfolio/Mediterranean");
     } else if (projectType === "Luxury") {
-      navigate("/portfolio/Luxury");
+      navigate("/React--Architect-Website/portfolio/Luxury");
     }
   };
   return (
@@ -75,7 +75,7 @@ const Home = () => {
                       form and space.
                     </p>
                     <Link
-                      to="/portfolio/modern/11"
+                      to="/React--Architect-Website/portfolio/modern/11"
                       onClick={() => {
                         handleClickLink("portfolio");
                       }}
@@ -95,7 +95,7 @@ const Home = () => {
                       seamless indoor-outdoor connection.
                     </p>
                     <Link
-                      to="/portfolio/modern/1"
+                      to="/React--Architect-Website/portfolio/modern/1"
                       onClick={() => {
                         handleClickLink("portfolio");
                       }}
@@ -144,7 +144,7 @@ const Home = () => {
                       of country living.
                     </p>
                     <Link
-                      to="/portfolio/cottage/5"
+                      to="/React--Architect-Website/portfolio/cottage/5"
                       onClick={() => {
                         handleClickLink("portfolio");
                       }}
@@ -164,7 +164,7 @@ const Home = () => {
                       a warm and inviting atmosphere.
                     </p>
                     <Link
-                      to="/portfolio/cottage/4"
+                      to="/React--Architect-Website/portfolio/cottage/4"
                       onClick={() => {
                         handleClickLink("portfolio");
                       }}
@@ -213,7 +213,7 @@ const Home = () => {
                       providing a seamless indoor-outdoor living experience.
                     </p>
                     <Link
-                      to="/portfolio/mediterranean/2"
+                      to="/React--Architect-Website/portfolio/mediterranean/2"
                       onClick={() => {
                         handleClickLink("portfolio");
                       }}
@@ -233,7 +233,7 @@ const Home = () => {
                       spacious interiors and stunning sea views.
                     </p>
                     <Link
-                      to="/portfolio/mediterranean/12"
+                      to="/React--Architect-Website/portfolio/mediterranean/12"
                       onClick={() => {
                         handleClickLink("portfolio");
                       }}
@@ -282,7 +282,7 @@ const Home = () => {
                       the tone for the entire house.
                     </p>
                     <Link
-                      to="/portfolio/luxury/7"
+                      to="/React--Architect-Website/portfolio/luxury/7"
                       onClick={() => {
                         handleClickLink("portfolio");
                       }}
@@ -302,7 +302,7 @@ const Home = () => {
                       and an elevated living experience.
                     </p>
                     <Link
-                      to="/portfolio/luxury/9"
+                      to="/React--Architect-Website/portfolio/luxury/9"
                       onClick={() => {
                         handleClickLink("portfolio");
                       }}
@@ -336,7 +336,7 @@ const Home = () => {
           </p>
 
           <Link
-            to="/portfolio/All-projects"
+            to="/React--Architect-Website/portfolio/All-projects"
             onClick={() => {
               handleClickLink("portfolio");
             }}
