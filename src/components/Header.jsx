@@ -56,7 +56,7 @@ const Header = () => {
                 className={`nav-link ${
                   activeLink === "home" ? "active-link" : ""
                 }`}
-                to="/React--Architect-Website/"
+                to={`${process.env.PUBLIC_URL}/`}
                 onClick={() => {
                   handleToggle();
                   handleClick("home");
@@ -71,7 +71,7 @@ const Header = () => {
                 className={`nav-link ${
                   activeLink === "aboutUs" ? "active-link" : ""
                 }`}
-                to="/aboutUs"
+                to={`${process.env.PUBLIC_URL}/aboutUs`}
                 onClick={() => {
                   handleToggle();
                   handleClick("aboutUs");

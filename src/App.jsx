@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/React--Architect-Website/"
+            path={`${process.env.PUBLIC_URL}/`}
             element={
               <>
                 <Home />
@@ -30,7 +30,10 @@ function App() {
               </>
             }
           />
-          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route
+            path={`${process.env.PUBLIC_URL}/aboutUs`}
+            element={<AboutUs />}
+          />
           <Route
             path="/portfolio/:category"
             element={
