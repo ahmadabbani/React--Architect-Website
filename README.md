@@ -1,8 +1,4 @@
-# React + Vite
+About
+This website is a testament to the power of React technology. It features a modern layout that elegantly displays architectural projects and their details. The design is simple yet modern, ensuring a seamless user experience while highlighting the technical prowess behind it.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Live site : https://ahmadabbani.github.io/React--Architect-Website/
