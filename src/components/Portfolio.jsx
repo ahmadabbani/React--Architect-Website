@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import "../App.css";
 const Portfolio = () => {
-  const { projects } = useContext(DataContext);
+  const { projects, handleClickLink } = useContext(DataContext);
   const { category } = useParams();
   const [selectedLink, setSelectedLink] = useState("All");
   const [showAllProjects, setShowAllProjects] = useState(false);
@@ -36,6 +36,9 @@ const Portfolio = () => {
   }, [category]);
   useEffect(() => {
     window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
+    handleClickLink("portfolio");
   }, []);
   // Create a Set with the types of the projects to get unique categories
   const categories = [...new Set(projects.map((project) => project.type))];
