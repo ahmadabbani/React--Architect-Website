@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/https://ahmadabbani.github.io/React--Architect-Website/"
+            path="/React--Architect-Website/"
             element={
               <>
                 <Home />
