@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { DataContext } from "./DataProvider";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   FaXTwitter,
   FaFacebook,
@@ -57,7 +57,7 @@ const Contact = () => {
               <ul>
                 <li>
                   <Link
-                    to="/"
+                    to="/React--Architect-Website/"
                     onClick={() => {
                       handleClick("home");
                       handleClickLink("home");
@@ -68,7 +68,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <Link
-                    to="/aboutUs"
+                    to="/React--Architect-Website/aboutUs"
                     onClick={() => {
                       handleClickLink("aboutUs");
                     }}
@@ -78,7 +78,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <Link
-                    to="/portfolio/All-projects"
+                    to="/React--Architect-Website/portfolio/All-projects"
                     onClick={() => {
                       handleClickLink("portfolio");
                     }}

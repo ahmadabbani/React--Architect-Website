@@ -41,7 +41,7 @@ const Projectdetails = () => {
   const projectCategorie = project.type;
 
   const handleClickBack = () => {
-    navigate(`/portfolio/${projectCategorie}`);
+    navigate(`/React--Architect-Website/portfolio/${projectCategorie}`);
   };
   return (
     <section className="section" id="projectdetails" ref={myRef}>

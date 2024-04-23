@@ -26,10 +26,22 @@ const AboutUs = () => {
         <div className="grid aboutUsHighlight">
           <div className="ourStory ">
             <div className="ourStory-imgs">
-              <img src="/images/aboutUs/aboutUs-5.jpg" alt="about Image" />
-              <img src="/images/aboutUs/aboutUs-8.jpg" alt="about Image" />
-              <img src="/images/aboutUs/aboutUs-9.jpg" alt="about Image" />
-              <img src="/images/aboutUs/aboutUs-17.jpg" alt="about Image" />
+              <img
+                src={`/React--Architect-Website/images/aboutUs/aboutUs-5.jpg`}
+                alt="about Image"
+              />
+              <img
+                src={`/React--Architect-Website/images/aboutUs/aboutUs-8.jpg`}
+                alt="about Image"
+              />
+              <img
+                src={`/React--Architect-Website/images/aboutUs/aboutUs-9.jpg`}
+                alt="about Image"
+              />
+              <img
+                src={`/React--Architect-Website/images/aboutUs/aboutUs-17.jpg`}
+                alt="about Image"
+              />
             </div>
             <div className="ourStory-text">
               <div className="ourStory-title">
@@ -54,7 +66,9 @@ const AboutUs = () => {
               </p>
               <div className="storyEndNote">
                 <div className="ceo-info">
-                  <img src="images/Team/image-jonathan.jpg" />
+                  <img
+                    src={`/React--Architect-Websiteimages/Team/image-jonathan.jpg`}
+                  />
                   <div className="ceo-name">
                     <h5>Jonathan Walters</h5>
                     <h6>Founder & CEO</h6>
@@ -68,7 +82,6 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          {/*isuue here*/}
           <div className="whyChoosingUs ">
             <div className="choosingUs-text">
               <h2>Why Choosing Us</h2>
@@ -130,7 +143,10 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="choosingUs-img">
-              <img src="/images/aboutUs/aboutUs-4.jpg" alt="about Image" />{" "}
+              <img
+                src={`/React--Architect-Website/images/aboutUs/aboutUs-4.jpg`}
+                alt="about Image"
+              />{" "}
             </div>
           </div>
         </div>
@@ -143,7 +159,7 @@ const AboutUs = () => {
         </p>
         <div className="team-flex">
           <div className="team-card">
-            <img src="images/Team/team1.png" />
+            <img src={`/React--Architect-Websiteimages/Team/team1.png`} />
             <div className="teamName">
               {" "}
               <h3>Jane Smith</h3>
@@ -165,7 +181,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="team-card">
-            <img src="images/Team/team2.png" />
+            <img src={`/React--Architect-Websiteimages/Team/team2.png"`} />
             <div className="teamName">
               <h3>Robert Johnson</h3>
               <p>Project Manager</p>
@@ -186,7 +202,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="team-card">
-            <img src="images/Team/team3.png" />
+            <img src={`/React--Architect-Websiteimages/Team/team3.png`} />
             <div className="teamName">
               {" "}
               <h3>John Doe</h3>
@@ -208,7 +224,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="team-card">
-            <img src="images/Team/team4.png" />
+            <img src={`/React--Architect-Websiteimages/Team/team4.png`} />
             <div className="teamName">
               <h3>Emily Williams</h3>
               <p> Principal Architect</p>

@@ -22,7 +22,7 @@ const About = () => {
             </p>
             <div className=" to-aboutUs">
               <Link
-                to="/aboutUs"
+                to="/React--Architect-Website/aboutUs"
                 onClick={() => {
                   handleClickLink("aboutUs");
                 }}

@@ -15,7 +15,7 @@ const RecommendedProjects = ({ project }) => {
       </div>
 
       <Link
-        to={`/portfolio/${project.type}/${project.id}`}
+        to={`/React--Architect-Website/portfolio/${project.type}/${project.id}`}
         className="showdetails-btn"
       >
         <FaLongArrowAltRight />

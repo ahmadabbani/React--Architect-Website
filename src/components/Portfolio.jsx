@@ -51,7 +51,7 @@ const Portfolio = () => {
                   className={`categorie-link ${
                     "All" === selectedLink ? "selected" : ""
                   }`}
-                  to="/portfolio/All-projects"
+                  to="/React--Architect-Website/portfolio/All-projects"
                   onClick={() => {
                     if (selectedLink !== "All") {
                       setSelectedLink("All");
@@ -70,7 +70,7 @@ const Portfolio = () => {
                     className={`categorie-link ${
                       categorie === selectedLink ? "selected" : ""
                     }`}
-                    to={`/portfolio/${categorie}`}
+                    to={`/React--Architect-Website/portfolio/${categorie}`}
                     onClick={() => {
                       setSelectedLink(categorie);
                       if (showAllProjects) {

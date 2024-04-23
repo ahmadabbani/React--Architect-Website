@@ -35,7 +35,7 @@ function App() {
             element={<AboutUs />}
           />
           <Route
-            path="/portfolio/:category"
+            path="/React--Architect-Website/portfolio/:category"
             element={
               <>
                 <Portfolio />
@@ -45,7 +45,7 @@ function App() {
             {" "}
           </Route>
           <Route
-            path="/portfolio/:category/:id"
+            path="/React--Architect-Website/portfolio/:category/:id"
             element={
               <>
                 <Projectdetails />

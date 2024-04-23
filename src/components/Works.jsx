@@ -87,7 +87,7 @@ const Works = () => {
                   </p>
                 </div>
                 <Link
-                  to={`/portfolio/${project.type}`}
+                  to={`/React--Architect-Website/portfolio/${project.type}`}
                   onClick={() => {
                     handleClickLink("portfolio");
                   }}
@@ -115,7 +115,7 @@ const Works = () => {
           </p>
           <div className=" see-portfolio">
             <Link
-              to="/portfolio/All-projects"
+              to="/React--Architect-Website/portfolio/All-projects"
               onClick={() => {
                 handleClickLink("portfolio");
               }}

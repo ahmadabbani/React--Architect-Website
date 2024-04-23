@@ -110,7 +110,10 @@ const Home = () => {
             <SwiperSlide>
               {" "}
               <div className="hero-slide">
-                <img src="/images/home/img-hero-cott.jpg" alt="Hero Image" />
+                <img
+                  src={`/React--Architect-Website/images/home/img-hero-cott.jpg`}
+                  alt="Hero Image"
+                />
                 <div className="hero-text">
                   <h1>
                     Discover <span id="span2">Coziness</span>
@@ -176,7 +179,10 @@ const Home = () => {
             <SwiperSlide>
               {" "}
               <div className="hero-slide">
-                <img src="/images/home/img-hero-medt.jpg" alt="Hero Image" />
+                <img
+                  src={`/React--Architect-Website/images/home/img-hero-medt.jpg`}
+                  alt="Hero Image"
+                />
                 <div className="hero-text">
                   <h1>
                     Uncover <span id="span3">Serenity</span>
@@ -242,7 +248,10 @@ const Home = () => {
             <SwiperSlide>
               {" "}
               <div className="hero-slide">
-                <img src="/images/home/img-hero-lux.jpg" alt="Hero Image" />
+                <img
+                  src={`/React--Architect-Website/images/home/img-hero-lux.jpg`}
+                  alt="Hero Image"
+                />
                 <div className="hero-text">
                   <h1>
                     Experience <span id="span4">Luxury</span>
