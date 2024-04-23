@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path={`${process.env.PUBLIC_URL}/`}
+            path="/"
             element={
               <>
                 <Home />
@@ -30,10 +30,7 @@ function App() {
               </>
             }
           />
-          <Route
-            path={`${process.env.PUBLIC_URL}/aboutUs`}
-            element={<AboutUs />}
-          />
+          <Route path="aboutUs" element={<AboutUs />} />
           <Route
             path="/portfolio/:category"
             element={
