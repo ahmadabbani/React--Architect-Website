@@ -12,7 +12,7 @@ import Projectdetails from "./components/Projectdetails";
 import DataProvider from "./components/DataProvider";
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <DataProvider>
         <Header />
         <Routes>
