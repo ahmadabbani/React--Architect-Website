@@ -11,7 +11,7 @@ import "../App.css";
 import "swiper/css";
 const Projectdetails = () => {
   const { id } = useParams();
-  const { projects } = useContext(DataContext);
+  const { projects, handleClickLink } = useContext(DataContext);
   // Find the project with the matching id
   const project = projects.find((project) => project.id.toString() === id);
   // Extract the gallery from the project
@@ -39,7 +39,9 @@ const Projectdetails = () => {
   }, [id]);
   const navigate = useNavigate();
   const projectCategorie = project.type;
-
+  useEffect(() => {
+    handleClickLink("portfolio");
+  }, []);
   const handleClickBack = () => {
     navigate(`/React--Architect-Website/portfolio/${projectCategorie}`);
   };

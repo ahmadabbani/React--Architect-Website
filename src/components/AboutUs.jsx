@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
+import { DataContext } from "./DataProvider";
 import { FiArrowDownRight } from "react-icons/fi";
 import { SiKnowledgebase } from "react-icons/si";
 
@@ -14,10 +15,14 @@ import { IoShieldCheckmark } from "react-icons/io5";
 
 import "../App.css";
 const AboutUs = () => {
+  const { handleClickLink } = useContext(DataContext);
   useEffect(() => {
     setTimeout(() => {
       window.scrollTo(0, 0);
     }, 100);
+  }, []);
+  useEffect(() => {
+    handleClickLink("aboutUs");
   }, []);
   return (
     <>
