@@ -261,7 +261,18 @@ color:hsla(217, 19%, 20%);
 .showdetails-btn:hover {
  opacity: 0.7;
 }
+.project .lazy-load-image-background{
+  width: 100% !important;
+  height: 100% !important;
+}
 .project .project-img{
+  object-fit: cover !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  max-height:100% !important;
+  height: 100% !important;
+}
+.project .lazy-load-image-background .project-img{
   object-fit: cover !important;
   max-width: 100% !important;
   width: 100% !important;
