@@ -12,12 +12,12 @@ import Projectdetails from "./components/Projectdetails";
 import DataProvider from "./components/DataProvider";
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <DataProvider>
         <Header />
         <Routes>
           <Route
-            path="/"
+            path="/https://ahmadabbani.github.io/React--Architect-Website/"
             element={
               <>
                 <Home />
