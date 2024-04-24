@@ -103,9 +103,6 @@ const Portfolio = () => {
                 className="project-img"
                 alt={project.name}
                 effect="blur"
-                wrapperProps={{
-                  style: { transitionDelay: "0.5s" },
-                }}
               />
               <div className="project-body">
                 <div className="p-name">
