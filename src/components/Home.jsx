@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import { Link, useNavigate } from "react-router-dom";
 import { DataContext } from "./DataProvider";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -32,12 +32,13 @@ const Home = () => {
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
-            modules={[Navigation]}
+            modules={[Navigation, Autoplay]}
             className="swiper"
             navigation={{
               nextEl: ".my-custom-next-button",
               prevEl: ".my-custom-prev-button",
             }}
+            autoplay={{ delay: 3000 }}
           >
             <SwiperSlide>
               <div className="hero-slide">
