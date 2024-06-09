@@ -164,7 +164,7 @@ const AboutUs = () => {
         </p>
         <div className="team-flex">
           <div className="team-card">
-            <img src={`/React--Architect-Websiteimages/Team/team1.png`} />
+            <img src={`/React--Architect-Website/images/Team/team1.png`} />
             <div className="teamName">
               {" "}
               <h3>Jane Smith</h3>
@@ -186,7 +186,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="team-card">
-            <img src={`/React--Architect-Websiteimages/Team/team2.png"`} />
+            <img src={`/React--Architect-Website/images/Team/team2.png`} />
             <div className="teamName">
               <h3>Robert Johnson</h3>
               <p>Project Manager</p>
@@ -207,7 +207,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="team-card">
-            <img src={`/React--Architect-Websiteimages/Team/team3.png`} />
+            <img src={`/React--Architect-Website/images/Team/team3.png`} />
             <div className="teamName">
               {" "}
               <h3>John Doe</h3>
@@ -229,7 +229,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="team-card">
-            <img src={`/React--Architect-Websiteimages/Team/team4.png`} />
+            <img src={`/React--Architect-Website/images/Team/team4.png`} />
             <div className="teamName">
               <h3>Emily Williams</h3>
               <p> Principal Architect</p>
